@@ -32,8 +32,8 @@ const CONFIG = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '38.5449',
+  defaultLongitude: '121.7405',
 
   // Autochange
   autoChangeTheme: true,
@@ -84,7 +84,7 @@ const CONFIG = {
     {
       id: '6',
       name: 'Google Docs',
-      icon: 'googledocs',
+      icon: 'book-open',
       link: 'https://docs.google.com',
     },
   ],
@@ -117,7 +117,7 @@ const CONFIG = {
     {
       id: '5',
       name: 'ebay',
-      icon: 'shopping-bag',
+      icon: 'shopping-cart',
       link: 'https://ebay.com/',
     },
     {
