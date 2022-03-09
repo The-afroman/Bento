@@ -28,12 +28,12 @@ const CONFIG = {
   // Weather
   weatherKey: 'e72ce2275dbd6b6f5d0a1680f0e8d574', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-  weatherUnit: 'C', // 'F', 'C'
+  weatherUnit: 'F', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '38.5449',
-  defaultLongitude: '121.7405',
+  defaultLongitude: '38.5449',
+  defaultLatitude: '-121.7405',
 
   // Autochange
   autoChangeTheme: true,
@@ -79,7 +79,7 @@ const CONFIG = {
       id: '5',
       name: 'Reddit',
       icon: 'glasses',
-      link: 'https://reddit.com',
+      link: 'https://canvas.ucdavis.edu',
     },
     {
       id: '6',
@@ -135,24 +135,24 @@ const CONFIG = {
   // First Links Container
   firstlistsContainer: [
     {
-      icon: 'music',
+      icon: 'binary',
       id: '1',
       links: [
         {
-          name: 'Inspirational',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Arch wiki',
+          link: 'https://wiki.archlinux.org/',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'AUR',
+          link: 'https://aur.archlinux.org/',
         },
         {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Hacker News',
+          link: 'https://news.ycombinator.com/news',
         },
         {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Reddit',
+          link: 'https://www.reddit.com',
         },
       ],
     },
@@ -161,20 +161,20 @@ const CONFIG = {
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Discord',
+          link: 'https://www.discord.com',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Twitch',
+          link: 'https://www.twitch.tv',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
+          name: 'Coinbase',
+          link: 'https://www.coinbase.com',
         },
         {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Trading View',
+          link: 'https://www.tradingview.com/'.
         },
       ],
     },
