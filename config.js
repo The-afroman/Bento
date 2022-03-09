@@ -11,10 +11,10 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Faris',
   imageBackground: false,
   openInNewTab: true,
-  twelveHourFormat: false,
+  twelveHourFormat: true,
 
   // Greetings
   greetingMorning: 'Good morning!',
@@ -26,7 +26,7 @@ const CONFIG = {
   bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+  weatherKey: 'e72ce2275dbd6b6f5d0a1680f0e8d574', // Write here your API Key
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -55,18 +55,18 @@ const CONFIG = {
       id: '1',
       name: 'Github',
       icon: 'github',
-      link: 'https://github.com/',
+      link: 'https://github.com/The-afroman',
     },
     {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
+      name: 'Youtube',
+      icon: 'youtube',
       link: 'https://todoist.com',
     },
     {
@@ -83,9 +83,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Google Docs',
+      icon: 'googledocs',
+      link: 'https://docs.google.com',
     },
   ],
 
@@ -116,15 +116,15 @@ const CONFIG = {
     },
     {
       id: '5',
-      name: 'Hashnode',
-      icon: 'pen-tool',
-      link: 'https://hashnode.com/',
+      name: 'ebay',
+      icon: 'shopping-bag',
+      link: 'https://ebay.com/',
     },
     {
       id: '6',
-      name: 'Figma',
-      icon: 'figma',
-      link: 'https://figma.com/',
+      name: 'News',
+      icon: 'news',
+      link: 'https://www.nytimes.com',
     },
   ],
 
@@ -222,7 +222,7 @@ const CONFIG = {
         },
         {
           name: 'Repos',
-          link: 'https://github.com/migueravila',
+          link: 'https://github.com',
         },
       ],
     },
