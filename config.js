@@ -174,7 +174,7 @@ const CONFIG = {
         },
         {
           name: 'Trading View',
-          link: 'https://www.tradingview.com/'.
+          link: 'https://www.tradingview.com/',
         },
       ],
     },
